@@ -32,8 +32,14 @@
   }
 }
 
-body.footer-nav-ipad .top-menu {
-  padding-top: 16px;
+body.footer-nav-ipad {
+  .top-menu {
+    padding-top: 16px;
+  }
+  
+  #main-outlet {
+    padding-top: 6px;
+  }
 }
 
 div.footer-nav {
