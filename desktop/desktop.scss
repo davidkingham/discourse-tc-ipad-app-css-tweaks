@@ -49,3 +49,21 @@ body.footer-nav-ipad {
 div.footer-nav {
   display: none;
 }
+
+body.footer-nav-visible {
+  .anon div#toprow-links {
+     display: none;
+  }
+
+  .ads {
+    display: none;
+  }
+
+  .anon #sso-reply {
+    display: none;
+  }
+
+  .alert.alert-info {
+    display: none;
+  }
+}
