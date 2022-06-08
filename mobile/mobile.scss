@@ -1,0 +1,22 @@
+body.footer-nav-visible {
+  .ads {
+    display: none;
+  }
+
+  .alert.alert-info {
+    display: none;
+  }
+}
+
+
+html.anon {
+  body.footer-nav-visible {
+    div#toprow-links {
+       display: none;
+    }
+
+    #sso-reply {
+      display: none;
+    }
+  }
+}
