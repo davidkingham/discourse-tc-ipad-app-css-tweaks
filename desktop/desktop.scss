@@ -50,6 +50,16 @@ div.footer-nav {
   display: none;
 }
 
+body.footer-nav-visible, body.footer-nav-ipad {
+  .ads {
+    display: none;
+  }
+
+  .alert.alert-info {
+    display: none;
+  }
+}
+
 
 html.anon {
   body.footer-nav-visible, body.footer-nav-ipad {
@@ -57,15 +67,7 @@ html.anon {
        display: none;
     }
 
-    .ads {
-      display: none;
-    }
-
     #sso-reply {
-      display: none;
-    }
-
-    .alert.alert-info {
       display: none;
     }
   }
