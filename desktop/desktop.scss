@@ -50,20 +50,23 @@ div.footer-nav {
   display: none;
 }
 
-body.footer-nav-visible {
-  .anon div#toprow-links {
-     display: none;
-  }
 
-  .ads {
-    display: none;
-  }
+html.anon {
+  body.footer-nav-visible, body.footer-nav-ipad {
+    div#toprow-links {
+       display: none;
+    }
 
-  .anon #sso-reply {
-    display: none;
-  }
+    .ads {
+      display: none;
+    }
 
-  .alert.alert-info {
-    display: none;
+    #sso-reply {
+      display: none;
+    }
+
+    .alert.alert-info {
+      display: none;
+    }
   }
 }
