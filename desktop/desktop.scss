@@ -50,7 +50,7 @@ div.footer-nav {
   display: none;
 }
 
-body.footer-nav-visible, body.footer-nav-ipad {
+body.footer-nav-ipad {
   .ads {
     display: none;
   }
@@ -62,7 +62,7 @@ body.footer-nav-visible, body.footer-nav-ipad {
 
 
 html.anon {
-  body.footer-nav-visible, body.footer-nav-ipad {
+  body.footer-nav-ipad {
     div#toprow-links {
        display: none;
     }
